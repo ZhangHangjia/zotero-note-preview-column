@@ -2,7 +2,6 @@
 <img width="1220" height="340" alt="image" src="https://github.com/user-attachments/assets/401613d3-92b6-402c-9a91-e44962c10ace" />
 
 
-![插件图标](icons/note-preview-column.svg)
 
 适用于 Zotero 10.0.x。插件在文献列表中增加“笔记摘要”列，让父条目直接显示其子笔记的纯文本内容，无需展开条目。
 
@@ -38,6 +37,8 @@
 - 独立 PDF/其他附件：显示附件自身的笔记字段。
 - PDF 高亮/批注不属于普通子笔记，因此不会自动混入此列；可以先用 Zotero 的“从批注添加笔记”生成子笔记。
 - HTML 格式会转换为单行纯文本，图片不会显示。
+
+![插件图标](icons/note-preview-column.svg)
 
 ## 兼容性
 
