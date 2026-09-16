@@ -1,4 +1,6 @@
 # Zotero 笔记摘要列（Note Preview Column）
+<img width="1220" height="340" alt="image" src="https://github.com/user-attachments/assets/401613d3-92b6-402c-9a91-e44962c10ace" />
+
 
 ![插件图标](icons/note-preview-column.svg)
 
