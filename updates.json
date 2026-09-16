@@ -4,7 +4,7 @@
       "updates": [
         {
           "version": "1.1.0",
-          "update_link": "https://github.com/ZhangHangjia/zotero-note-preview-column/releases/download/v1.1.0/zotero-note-preview-column-1.1.0.xpi",
+          "update_link": "https://raw.githubusercontent.com/ZhangHangjia/zotero-note-preview-column/main/dist/zotero-note-preview-column-1.1.0.xpi",
           "update_hash": "sha256:BECE60DF349C7A6B8D49F4A07266E2795CCCC2DD54C74F9B7DE8D480F1A6990B",
           "applications": {
             "zotero": {
