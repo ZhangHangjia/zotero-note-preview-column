@@ -1,0 +1,45 @@
+<groupbox>
+  <label><html:h2>笔记摘要列</html:h2></label>
+
+  <description>
+    在 Zotero 条目列表中显示子笔记的纯文本摘要。修改设置后，列表会自动重绘。
+  </description>
+
+  <hbox align="center">
+    <html:label for="note-preview-column-mode" style="min-width: 150px;">多条笔记：</html:label>
+    <menulist id="note-preview-column-mode" preference="extensions.note-preview-column.noteMode">
+      <menupopup>
+        <menuitem label="合并全部笔记" value="all" />
+        <menuitem label="仅显示第一条" value="first" />
+        <menuitem label="仅显示最近修改的一条" value="latest" />
+      </menupopup>
+    </menulist>
+  </hbox>
+
+  <hbox align="center">
+    <html:label for="note-preview-column-length" style="min-width: 150px;">最多显示字符数：</html:label>
+    <html:input
+      id="note-preview-column-length"
+      type="number"
+      min="40"
+      max="5000"
+      step="20"
+      preference="extensions.note-preview-column.maxLength"
+      style="width: 110px;"
+    />
+  </hbox>
+
+  <hbox align="center">
+    <html:label for="note-preview-column-separator" style="min-width: 150px;">笔记间分隔符：</html:label>
+    <html:input
+      id="note-preview-column-separator"
+      type="text"
+      preference="extensions.note-preview-column.separator"
+      style="width: 180px;"
+    />
+  </hbox>
+
+  <description style="margin-top: 10px;">
+    启用列：回到文献列表，右键单击任意列表表头，然后勾选“笔记摘要”。将鼠标停在单元格上可查看当前摘要。
+  </description>
+</groupbox>
